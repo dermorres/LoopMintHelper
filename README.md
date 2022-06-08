@@ -15,22 +15,23 @@ At this time, the script cannot insert traits, but that will come soon!
 
 
 
-Prerequisites and installation
+## Prerequisites and installation (looks like more than it is!)
 At the moment a running linux system, windows support may come soon!
 
-IPFS Desktop (if you want to use remote pinning service! if not, only the cli is enough!)
+1.Install IPFS Desktop (if you want to use remote pinning service! if not, only the cli is enough!)
 ->https://docs.ipfs.io/install/ipfs-desktop/#ubuntu
-when you downloaded it, start it and go into the settings (left side) and activate a Remote Pinning Service here (atm mandatory to use the pinning feature!)
+2.when you downloaded it, start it and go into the settings (left side) and activate a Remote Pinning Service here (atm mandatory to use the pinning feature!)
 
-Download FudgeBuckets phenomenal LoopMintSharp (which latently inspired me to do this)
+3.Download FudgeBuckets phenomenal LoopMintSharp (which latently inspired me to do this)
 ->https://github.com/fudgebucket27/LoopMintSharp/releases/download/Linux_x64_v2/linux-x64.zip
 
-Download my script here and extract the content of the zip into an own folder somewhere you like.
-Extract from Fudgebuckets LoopMintSharp only the file also called LoopMintSharp into the directory you extracted my files into! DO NOT copy the appsettings.json from Fudgebucket, as a slightly modificated version (only two placeholders which let me edit it with the script, so you get the right nft amount and royaltypercentage) already came with my script.
+4.Download my script here and extract the content of the zip into an own folder somewhere you like.
 
-Open the "appsettings-base.json" file and enter into the first 4 fields (the empty "" before the //comments) appropriately like the comments on the right tell you. you can find the data you need to fill in on loopring.io or in your mobile wallet!
+5.Extract from Fudgebuckets LoopMintSharp only the file also called LoopMintSharp into the directory you extracted my files into! DO NOT copy the appsettings.json from Fudgebucket, as a slightly modificated version (only two placeholders which let me edit it with the script, so you get the right nft amount and royaltypercentage) already came with my script.
 
-EITHER open a terminal in the folder of the script and type "chmod +x LoopMintSharp" 
+6.Open the "appsettings-base.json" file and enter into the first 4 fields (the empty "" before the //comments) appropriately like the comments on the right tell you. you can find the data you need to fill in on loopring.io or in your mobile wallet!
+
+7.EITHER open a terminal in the folder of the script and type "chmod +x LoopMintSharp" 
 OR right click on LoopMintSharp->Setting->Permissions->check "Allow executing file as program"
 do the exact same for "loopminthelper.sh"!
 
@@ -41,10 +42,10 @@ You can use the script now by either double clicking on it and run it,
 or you run a terminal in the folder of the script and type "./loopminthelper.sh"
 
 
-TIPPS:
-Do not panic if it seems like frozen for a few seconds, it is most likely an intentional background check if you are copying mediafiles into the folder!
-Read everything that pops up! 
-Type carefully, as a mistake may for example need you to restart the process, as the mstake would be in every metafile.
+## TIPPS:
+1.Do not panic if it seems like frozen for a few seconds, it is most likely an intentional background check if you are copying mediafiles into the folder!
+2.Read everything that pops up! 
+3.Type carefully, as a mistake may for example need you to restart the process, as the mstake would be in every metafile.
 
 
 
