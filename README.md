@@ -8,6 +8,11 @@ In fact it can do the following:
 4. upload and pin these too
 5. hand the CIDs of the metadata over to Fudgebuckets LoopMintSharp, to automatically mint all of them.
 
+It can not yet(but soon):
+1.handle traits
+2.do individual amounts per nft if you mint them all together
+3.do individual descriptions per nft (names and numbers will already be dynamic per nft)
+
 Yo can skip every step of it and enter at a later point! And you can also upload the files yourself and just ender the asked CID in the script!
 
 With this, you can save all the time it would take to upload, copy cids and pinning files, as well as the tedious editing of metafiles.
