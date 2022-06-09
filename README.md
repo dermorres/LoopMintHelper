@@ -57,3 +57,6 @@ or you run a terminal in the folder of the script and type "./loopminthelper.sh"
 If you encounter any problems, please feel free to reach out!
 Reddit: dermorres
 Discord: https://discord.gg/NwfJCd7bah
+
+If you'd like to donate some loops, that would make me very happy!
+My ENS: dermorres.loopring.eth
