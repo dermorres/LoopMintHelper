@@ -47,6 +47,10 @@ You can use the script now by either double clicking on it and run it,
 or you run a terminal in the folder of the script and type "./loopminthelper.sh"
 
 
+## Update: 
+if you update from v1.0 to v1.1 please only extract and overwrite the loopminthelper.sh!
+
+
 ## TIPPS:
 1.Do not panic if it seems like frozen for a few seconds, it is most likely an intentional background check if you are copying mediafiles into the folder!
 2.Read everything that pops up! 
